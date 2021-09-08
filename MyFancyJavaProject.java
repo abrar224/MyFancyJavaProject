@@ -18,8 +18,8 @@ class DbConnection{
 public class MyFancyJavaProject {
 
     public static void main(String[] args){
-        String dbUser="admin";
-        String dbPassword="admin";
+        String dbUser="abrar";
+        String dbPassword="5678";
         String dbName="testDb";
         DbConnection connection = new DbConnection(dbUser, dbPassword, dbName);
         connection.printAll();

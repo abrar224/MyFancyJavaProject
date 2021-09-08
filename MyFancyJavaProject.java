@@ -12,6 +12,7 @@ class DbConnection{
 
     void printAll(){
         System.out.println("User: " + dbUser + "\nPassword: " + dbPassword + "\nDBName: " + dbName);
+	System.out.println("Database Connected");
     }
 }
 
